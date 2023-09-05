@@ -4,18 +4,28 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:opsz,wght@9..40,200;9..40,400;9..40,500;9..40,600;9..40,700;9..40,900&display=swap" rel="stylesheet">
     <title>htmlcss-struttura-discord</title>
 </head>
 <body class="debug">
     <!-- Header con logo, link e login -->
     <header>
-        <div class="container">
+        <nav class="container">
             <div class="row">
-                <div class="col logo">logo</div>
-                <div class="col link">link link link link link</div>
-                <div class="col login">login</div>
+                <div class="col logo"><img src="./img/logo.svg" alt="Logo"></div>
+                <div class="col link">
+                    <ul class="menu">
+                        <li><a href="#">Scarica</a></li>
+                        <li><a href="#">Perchè Discord</a></li>
+                        <li><a href="#">Nitro</a></li>
+                        <li><a href="#">Sicurezza</a></li>
+                        <li><a href="#">Assistenza</a></li>
+                    </ul></div>
+                <div class="col login"><a href="">Accedi</a></div>
             </div>
-        </div>
+        </nav>
     </header>
     <!-- Corpo della pagina -->
     <main class="main-content">
