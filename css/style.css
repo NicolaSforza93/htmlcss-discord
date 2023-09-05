@@ -22,7 +22,7 @@ body {
 
 header {
     background-color: #3161e0;
-    padding: 10px;
+    padding: 20px;
 }
 
 nav .row {
@@ -63,16 +63,90 @@ li a {
 
 /* Main */
 
+.main-content section {
+    padding: 55px;
+    padding-top: 0px;
+}
+
+.hero {
+    background-image: url(../img/jumbo.png);
+    background-size: cover;
+    background-position: center;
+}
+
 .col-10 {
     flex-basis: calc((100% / 12) * 10);
+    padding: 21px;
 }
 
 .justify-center {
     justify-content: center;
 }
 
+.col-10 * {
+    text-align: center;
+    color: white;
+    padding: 10px;
+}
+
+.col-10 h1 {
+    font-size: 40px;
+}
+
+.col-10 p {
+    font-size: 14px;
+}
+
+.button {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+.download, .open {
+    border-radius: 40px;
+}
+
+.download {
+    background-color: white;    
+}
+
+.download a {
+    color: black;
+    font-weight: 600;
+}
+
+.open {
+    background-color: black;
+}
+
+.open a {
+    font-weight: 600;
+}
+
+.col-8 img {
+    width: 100%;
+}
+
+.col-4 {
+    padding: 18px 9px;
+}
+
+.col-4 h1 {
+    font-size: 30px;
+    font-weight: 900;
+    padding: 5px;
+}
+
+.col-4 p {
+    font-size: 12px;
+    font-weight: 600;
+    padding: 5px;
+}
+
 .col-8 {
     flex-basis: calc((100% / 12) * 8);
+    padding-right: 65px;
 }
 
 .bg-grey .col-8 {
@@ -111,31 +185,31 @@ li a {
     background-color: rgba(255, 166, 0, 0.886);
 } */
 
-.debug .main-content section {
+/* .debug .main-content section {
     padding: 20px;
-}
+} */
 
-.debug .main-content [class^="col-"] {
+/* .debug .main-content [class^="col-"] {
     min-height: 200px;
     padding: 20px;
     border: 1px dashed black;
-}
+} */
 
-.debug .bg-blue {
+/* .debug .bg-blue {
     background-color: #00008b;
-}
+} */
 
-.debug .col-10 {
+/* .debug .col-10 {
     background-color: #ee82ee;
-}
+} */
 
-.debug .col-8 {
+/* .debug .col-8 {
     background-color: #1e90ff;
 }
 
 .debug .col-4 {
     background-color: #ffc0cb;
-} 
+}  */
 
 .debug .bg-grey {
     background-color: rgba(128, 128, 128, 0.466);
