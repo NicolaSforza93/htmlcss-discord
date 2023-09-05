@@ -64,8 +64,11 @@ li a {
 /* Main */
 
 .main-content section {
-    padding: 55px;
-    padding-top: 0px;
+    padding: 60px;
+}
+
+.main-content .hero {
+    padding-top: 0;
 }
 
 .hero {
@@ -211,9 +214,9 @@ li a {
     background-color: #ffc0cb;
 }  */
 
-.debug .bg-grey {
+/* .debug .bg-grey {
     background-color: rgba(128, 128, 128, 0.466);
-}
+} */
 
 .debug .bg-grey .col-12 {
     background-color: green;
