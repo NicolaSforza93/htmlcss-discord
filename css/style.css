@@ -1,0 +1,152 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    max-width: 750px;
+    margin: 0 auto;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+/* Header */
+
+.col.link {
+    flex-grow: 2;
+    text-align: center;
+}
+
+.col.login, .col.logo {
+    flex-grow: 1;
+}
+
+.col.login {
+    text-align: right;
+}
+
+/* Main */
+
+.col-10 {
+    flex-basis: calc((100% / 12) * 10);
+}
+
+.justify-center {
+    justify-content: center;
+}
+
+.col-8 {
+    flex-basis: calc((100% / 12) * 8);
+}
+
+.bg-grey .col-8 {
+    order: 1;
+}
+
+.col-4 {
+    flex-basis: calc((100% / 12) * 4);
+}
+
+.col-12 {
+    flex-basis: calc((100% / 12) * 12);
+}
+
+/* Footer */
+
+.col-2 {
+    flex-basis: calc((100% / 12) * 2);
+}
+
+.justify-between {
+    justify-content: space-between;
+}
+
+
+/* DEBUG */
+
+.debug header {
+    padding: 5px;
+    background-color: #add8e6;
+}
+
+.debug header .col {
+    border: 1px dashed black;
+    padding: 3px;
+    background-color: rgba(255, 166, 0, 0.886);
+}
+
+.debug .main-content section {
+    padding: 20px;
+}
+
+.debug .main-content [class^="col-"] {
+    min-height: 200px;
+    padding: 20px;
+    border: 1px dashed black;
+}
+
+.debug .bg-blue {
+    background-color: #00008b;
+}
+
+.debug .col-10 {
+    background-color: #ee82ee;
+}
+
+.debug .col-8 {
+    background-color: #1e90ff;
+}
+
+.debug .col-4 {
+    background-color: #ffc0cb;
+} 
+
+.debug .bg-grey {
+    background-color: rgba(128, 128, 128, 0.466);
+}
+
+.debug .bg-grey .col-12 {
+    background-color: green;
+    min-height: 400px;
+}
+
+.debug footer section{
+    background-color: rgba(0, 0, 0, 0.716);
+    padding: 10px;
+}
+
+.debug footer [class^="col-"] {
+    min-height: 300px;
+    padding: 20px;
+    border: 1px dashed white;
+}
+
+.debug footer .col-2 {
+    background-color: #20b2aa;
+}
+
+.debug footer .col-4 {
+    background-color: #f08080;
+}
+
+.debug .justify-between .col {
+    background-color: #ffb6c1;
+    border: 1px dashed black;
+    padding: 10px;
+}
+
+.bg-water {
+    background-color: #7fffd4;
+}
+
+.border {
+    border-top: 1px solid white;
+}
+
+
+
+
